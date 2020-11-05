@@ -1,0 +1,24 @@
+{
+  "name": "node-poker",
+  "version": "1.0.0",
+  "description": "A poker solving test",
+  "main": "dist/Hand.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./test.ts"
+  },
+  "keywords": [
+    "charter",
+    "test",
+    "poker"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
+    "@types/mocha": "^5.2.7"
+  }
+}
